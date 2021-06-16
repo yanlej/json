@@ -1,0 +1,114 @@
+{
+    "formules" : 
+    [
+        {
+            "id" : "1",
+            "image" : "https://www.lelovt.com/wp-content/uploads/nuit-love-lovt-e1525816209428.jpg",
+            "titre" : "Week-end d'amour",
+            "description" : "Le week-end d'amour vous permet de venir en amoureux dans une chambre pour 2 personnes, avec petit déjeuner \"lover\" servit au lit. Cette formule vous permet de bénéficier d'une réduction de 10 % sur le nombre total de nuitées."
+        },
+        {
+            "id" : "2",
+            "image" : "https://www.raynaldethien.fr/Lozere/Causse_Changefege_9_1.jpg",
+            "titre" : "Nature et découverte",
+            "description" : "Cette formule vous propose une fabuleuse escapade, \"rahan\", en terre du Gévaudan, ainsi qu'une réduction de 5 % sur la totalité du séjour. Elle est disponible pour tous les espaces et lorsque votre séjour dépasse les 5 nuitées. Un trés joli coutelas vous sera offert avec cette formule."
+        },
+        {
+            "id" : "3",
+            "image" : "https://fr.toluna.com/dpolls_images/2017/07/31/41071a2d-fce1-403b-a11b-48a6f5116628_x365.jpg",
+            "titre" : "Travail Saisonnier",
+            "description" : "Vous êtes travailleur saisonnier ? Pour une réservation d'un mois minimum pendant les saisons (de Juin à Août et de Décembre à Mars), vous bénéficiez d'une réduction de 20 % sur la totalité de votre séjour. Cette formule est disponible pour tous les espaces."
+        }
+    ],
+
+    "espaces" :
+    [
+        {
+            "id" : "1",
+            "image" : "img/room_for_2.png",
+            "titre" : "Chambre pour 2 personnes",
+            "description" : "Magnifique chambre pour 2 personnes avec une pièce de douche et un WC.",
+            "tarif" : "35€/nuit"
+        },
+        {
+            "id" : "2",
+            "image" : "img/bedroom_for_3.jpeg",
+            "titre" : "Chambre familiale",
+            "description" : "Une belle chambre familiale composée d'un lit double, d'un lit superposé, d'un lit simple, d'une pièce de douche et d'un WC.",
+            "tarif" : "55€/nuit"
+        },
+        {
+            "id" : "3",
+            "image" : "img/room_appart.png",
+            "titre" : "Appartement",
+            "description" : "Trés jolie appartement composé de deux lits doubles, deux lits superposés, deux lits simples, d'une cuisine, d'une pièce de douche et d'un WC.",
+            "tarif" : "110€/nuit"
+        }
+    ],
+
+    "admin" :
+    [
+        {
+            "prenom" : "maxime",
+            "nom" : "huard",
+            "password" : "maxime",
+            "admin" : "true"
+        },
+        {
+            "prenom" : "jeremy",
+            "nom" : "corbeilla",
+            "password" : "jeremy",
+            "admin" : "true"
+        },
+        {
+            "prenom" : "geoffrey",
+            "nom" : "flock",
+            "password" : "geoffrey",
+            "admin" : "true" 
+        },
+        {
+            "prenom" : "yannick",
+            "nom" : "lejosne",
+            "password" : "yannick",
+            "admin" : "true"
+        }
+    ],
+
+    "users" :
+    [
+        {
+            "prenom" : "jeanclaude",
+            "nom" : "vandamme",
+            "datedenaissance" : "18/10/1960",
+            "email" : "jcvd@gmail.com",
+            "reservation" :
+            [
+                {
+                    "datededebut" : "20/04/2021",
+                    "datefin" : "23/04/2021"
+                },
+                {
+                    "chambre" : "chambre pour 2",
+                    "formule" : ""
+                }
+            ]
+        },
+        {
+            "prenom" : "emmanuel",
+            "nom" : "macron",
+            "datedenaissance" : "21/12/1977",
+            "email" : "emmanuelmacron@gmail.com",
+            "reservation" :
+            [
+                {
+                    "datededebut" : "20/07/2021",
+                    "datefin" : "30/07/2021"
+                },
+                {
+                    "chambre" : "",
+                    "formule" : "nature et découverte"
+                }
+            ]
+        }
+    ]
+}
