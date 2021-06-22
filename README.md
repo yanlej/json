@@ -1,2 +1,2 @@
 # json
-Fichier JSON pour test la methode fetch pendant la formation BEWEB 2021
+Test JSON avec la methode fetch pendant la formation BEWEB 2021
